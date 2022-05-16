@@ -24,7 +24,7 @@ public class UserController {
 	UserService userservice;
 @Autowired
 	RestTemplate restTemplate;
-	
+	//GetMapping
 	@GetMapping("/") 
 	public String welcome()
 	{
